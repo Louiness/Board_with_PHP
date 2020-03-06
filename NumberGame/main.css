@@ -1,0 +1,52 @@
+body, div, button{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+header, footer{
+  height: 17px;
+}
+.container{
+  width: 800px;
+  height: 540px;
+  margin: 0 auto;
+  background-color: #FFEBBA;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+  width: 540px;
+  height: 540px;
+}
+.bar{
+  width:20px;
+  height: 540px;
+}
+.menu-bar{
+  width: 240px;
+  height: 20px;
+}
+.bar, .menu-bar{
+  background-color: #8C8B7B;
+}
+
+.menu{
+  width: 240px;
+  height: 540px;
+}
+button{
+  width: 90px;
+  height: 90px;
+}
+.card{
+  font-size: 25px;
+  float: left;
+}
+.menu-restart, .menu-help{
+  width: 240px;
+  height: 260px;
+}
